@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  
+
   <head>
     <meta charset="utf-8">
     <title>Laura Evans | Home</title>
@@ -12,13 +12,35 @@
 		<meta property="og:url" content="https://j4502-ss22.github.io/evans-portfolio-site/index.html" />
 		<meta property="og:title" content="Laura Evans" />
 		<meta property="og:site_name" content="Laura Evans" />
-    
+
   </head>
-  
+
   <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    		<div class="topnav" id="myTopnav">
+    			<a href= "index.html" tabindex="0" class="active">Home</a>
+    			<a href= "resume.html" tabindex="0">Resume</a>
+    			<a href= "clips.html" tabindex="0">Articles</a>
+    			<a href= "multimedia.html" tabindex="0">Multimedia</a>
+    			<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    	</div>
+
+
   <h1>Laura Evans</h1>
   <p>Hello, my name is <strong>Laura Evans</strong>, and I’m a young scholar and journalist soon to be entering the job market after I graduate in May. I major in Data Journalism and Latin, with a passion for language and grammar.  I love all kinds of reporting, having some experience in education, business, and investigative reporting in particular. I also really enjoy editing, particularly copy editing, and I've been working at the Columbia Missourian as a copy editor for about 1.5 years. At MU, I've gotten to try my hand at a number of skills, like multimedia storytelling, design, data analysis, and even coding in service of journalism.<br>Interested? Any questions? <a href="mailto:lgevans@mail.missouri.edu?subject=Feedback">Shoot me a message!</a></p>
 
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
   </body>
 </html>
