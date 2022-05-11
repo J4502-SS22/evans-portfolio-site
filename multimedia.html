@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  
+
   <head>
     <meta charset="utf-8">
     <title>Laura Evans | Multimedia</title>
@@ -12,12 +12,40 @@
 		<meta property="og:url" content="https://j4502-ss22.github.io/evans-portfolio-site/index.html" />
 		<meta property="og:title" content="Laura Evans" />
 		<meta property="og:site_name" content="Laura Evans" />
-    
+
   </head>
-  
+
   <body>
-  <h1>Multimedia work</h1>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="topnav" id="myTopnav">
+          <a href= "index.html" tabindex="0">Home</a>
+          <a href= "resume.html" tabindex="0">Resume</a>
+          <a href= "clips.html" tabindex="0">Articles</a>
+          <a href= "multimedia.html" tabindex="0" class="active">Multimedia</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+      </div>
+
+  <div class="main">
+    <h1>Multimedia work</h1>
     <p>Here is some of my multimedia work, showcasing photography, design and graphics skills.</p>
 
+</div>
+
+<footer>
+  <p>Author: Laura Evans</p>
+  <p>May 2022</p>
+</footer>
+
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
   </body>
 </html>
